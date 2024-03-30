@@ -1,7 +1,62 @@
 body {
-    background: rgb(199, 220, 201);
-    color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    font-family: "libre franklin";
+    color:black;
+
+}
+
+h1 {
+    margin: 0%;
+}
+/*navigation*/
+nav {
+    background-color: #8F9CA8;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5%;
+}
+
+#Mountains {
+    background-image: url(../images/photo-1477346611705-65d1883cee1e.avif);
+}
+
+#triopics {
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+
+#triopics img {
+    width: 300px;
+}
+
+#main-menu {
+display: flex;
+gap: 20px;
+}
+
+#main-menu li {
+    list-style: none;
+    gap: 50px;
+}
+
+.logo {
+    color:white;
+    font-size: 32px;
+    font-family: "libre franklin";
+}
+
+#space {
+    color: black;
     font-size: 20px;
+    font-family: "libre franklin";
     text-align: center;
+}
+
+#main-menu button, #main-menu a {
+    background-color: transparent;
+    font-size: 20 px;
+    color: white;
+    border-width: bold;
+    text-decoration: none;
 }
