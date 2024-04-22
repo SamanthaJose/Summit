@@ -18,16 +18,26 @@ nav {
 
 #Mountains {
     background-image: url(../images/photo-1477346611705-65d1883cee1e.avif);
+    height: 525px;
+    background-position: 0% 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    height: 200px;
+    align-self: center;
 }
 
 #triopics {
     display: flex;
     flex-direction: column;
-    align-items:end;
+    align-items: end;
 }
 
 #triopics img {
     width: 300px;
+    height: 323px;
 }
 
 #main-menu {
@@ -46,11 +56,12 @@ gap: 20px;
     font-family: "libre franklin";
 }
 
-#space {
+#Space {
     color: black;
-    font-size: 20px;
+    font-size: 40px;
+    width: 50%;
     font-family: "libre franklin";
-    text-align: center;
+    text-align:left;
 }
 
 #main-menu button, #main-menu a {
