@@ -13,6 +13,7 @@ h1 {
 nav {
     background-color: #8F9CA8;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     position: fixed;
     width: 90%;
@@ -122,6 +123,17 @@ text-align: center;
     display: flex;
     gap: 20px;
     padding: 5px;
+    object-fit: cover;
+    overflow: none;
+    max-height: 280px;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px;
+    font-family: "libre franklin";
 }
 
 #test {
